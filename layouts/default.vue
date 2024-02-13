@@ -1,20 +1,11 @@
 <template>
     <div class="container mx-auto max-w-2xl">
-        <header class="flex justify-between items-center">
+        <header class="flex justify-between items-center mt-5">
             <div>
                 <nuxt-link to="/" class="text-xl font-semibold p-2 hover:bg-gray-200">M1ch93l</nuxt-link>
             </div>
 
-            <nav class="font-mono">
-                <ul class="flex space-x-4">
-                    <li>
-                        <nuxt-link to="/">Main</nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="/about">About</nuxt-link>
-                    </li>
-                </ul>
-            </nav>
+            <Menu />
         </header>
 
         <main class="p-2">
