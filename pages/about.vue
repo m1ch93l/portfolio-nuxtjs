@@ -4,8 +4,8 @@
     </div>
 </template>
 
-<script>
+<!-- <script>
 definePageMeta({
     layout: 'another'
 })
-</script>
+</script> -->
