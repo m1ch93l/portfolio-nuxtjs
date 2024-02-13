@@ -1,16 +1,5 @@
 <template>
-  <nav>
-    <ul>
-      <li>
-        <nuxt-link to="/">Main</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="/about">About</nuxt-link>
-      </li>
-    </ul>
-  </nav>
-
-  <div>
+  <NuxtLayout>
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
