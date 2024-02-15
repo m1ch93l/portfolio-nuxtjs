@@ -8,7 +8,7 @@
             <Menu />
         </header>
 
-        <main class="p-2">
+        <main class="mt-10">
             <slot />
         </main>
 
