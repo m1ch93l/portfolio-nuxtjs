@@ -7,6 +7,6 @@
 </template>
 
 <script setup>
-const request = 'https://api.github.com/users/piotr-jura-udemy/repos';
+const request = 'https://api.github.com/users/m1ch93l/repos';
 const { error, pending, data } = await useFetch(request);
 </script>
