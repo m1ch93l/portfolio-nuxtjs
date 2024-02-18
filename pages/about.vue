@@ -1,7 +1,7 @@
 <template>
-    <div>
-        This page is about me.
-    </div>
+    <article class="prose">
+        <ContentDoc path="/about" />
+    </article>
 </template>
 
 <!-- <script>
