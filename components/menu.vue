@@ -2,13 +2,16 @@
     <nav class="font-mono">
         <ul class="flex space-x-4">
             <li>
-                <nuxt-link to="/" class="link">Main</nuxt-link>
+                <NuxtLink to="/" class="link">Main</NuxtLink>
             </li>
             <li>
-                <nuxt-link to="/about" class="link">About</nuxt-link>
+                <NuxtLink to="/about" class="link">About</NuxtLink>
             </li>
             <li>
-                <nuxt-link to="/project" class="link">Projects</nuxt-link>
+                <NuxtLink to="/project" class="link">Projects</NuxtLink>
+            </li>
+            <li>
+                <NuxtLink to="/project" class="link">Blog</NuxtLink>
             </li>
         </ul>
     </nav>
