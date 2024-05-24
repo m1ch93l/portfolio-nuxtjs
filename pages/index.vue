@@ -1,5 +1,5 @@
 <template>
-    <div>
-        Hello from the main page!
-    </div>
+    <article class="prose">
+        <ContentDoc path="/" />
+    </article>
 </template>
